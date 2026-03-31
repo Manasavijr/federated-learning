@@ -1,0 +1,31 @@
+# Core ML
+torch==2.6.0
+torchvision==0.21.0
+numpy==1.26.4
+scikit-learn==1.5.2
+
+# Federated Learning
+flwr==1.7.0
+
+# Differential Privacy
+opacus==1.4.1
+
+# Experiment tracking
+matplotlib==3.9.3
+pandas==2.2.3
+tqdm==4.67.1
+
+# API
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.9.2
+pydantic-settings==2.6.1
+
+# Utilities
+python-dotenv==1.0.1
+aiofiles==24.1.0
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2
